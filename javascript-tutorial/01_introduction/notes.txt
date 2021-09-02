@@ -1,0 +1,9 @@
+Ada beberapa hal yang dapat dilakukan oleh Javascript
+1. Javascript dapat merubah konten halaman HTML
+   contoh : change_html_content.html
+2. Javascript dapat merubah atribut HTML
+   contoh : change_html_attribute.html
+3. Javascript dapat merubah css
+   contoh : change_css1.html
+            change_css2.html
+            change_css3.html      

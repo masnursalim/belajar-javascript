@@ -1,0 +1,8 @@
+- Didalam HTML, Javascript dapat diletakkan diantara tag <script> ... </script> baik itu
+  di dalam tag <head> maupun di dalam tag <body>
+  contoh : javasript_in_head.html
+           javasript_in_body.html
+
+- Javascrip dapat diletakkan sebagai external file (berekstensi .js) dan dipanggil di
+  halaman HTML dengan tag <script src>
+  contoh : javascript_external.html            

@@ -1,0 +1,10 @@
+Javascript Statement
+-------------------------------------------------
+- Javascript statement terdiri atas Value, Operator, Expression, Keyword dan Comments
+Contoh : js_statement.html
+
+
+Semicolon
+--------------------------------------------------
+Setiap statement di javascript dipisahkan dengan semicolon ";"
+contoh : js_semicolon.html
