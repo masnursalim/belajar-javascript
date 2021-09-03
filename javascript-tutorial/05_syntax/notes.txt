@@ -1,0 +1,15 @@
+- Javascript syntax merupakan kumpulan beberapa aturan dimana javascript program di bentuk
+
+Javascript Value
+------------------------------------------
+- Ada 2 tipe nilai pada Javascript:
+  1. Nilai Fixed atau Literal
+  2. Nilai Variable
+
+
+Literal
+---------------------------------
+- Javascript literal terdiri atas beberapa tipe:
+  1. Number yang ditulis dengan atau tanpa desimal
+     contoh : js_number.html
+     
