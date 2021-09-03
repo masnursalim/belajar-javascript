@@ -48,4 +48,29 @@ Deklarasi Variable Di Javascript
 - Untuk memberikan nilai pada variable menggunakan operator =.
   nama = "Nursalim";
 - Kita juga dapat sekaligus membuat variable dan memberikan nilai secara bersamaan
-  var nama = "Nursalim";    
+  var nama = "Nursalim"; 
+
+
+Satu Statement Banyak Variable
+--------------------------------------------------
+- Kita dapat mendeklarasikan beberapa variable dalam satu statement.
+- Untuk membuatnya, dimulai dengan kata kunci var dan dipisahkan dengan tanda koma.
+contoh : js_multi_variable_on_statement.html
+
+
+Nilai Undefined
+----------------------------------------
+- Sebuah variable yang di deklarasikan tanpa memberikan sebuah nilai akan bernilai undefined.
+contoh : js_undefined.html
+
+
+Mendeklarasikan Kembali Variable
+-------------------------------------------------------------------
+- Di Javascript, Anda dapat mendeklarasikan kembali sebuah variable yang telah di assign sebuah nilai. Nilainya akan tetap ada.
+contoh : js_redeclare_variable.html
+
+
+javascrip Aritmatika
+----------------------------------------------
+- Untuk melakukan operasi aritmatika di Javascript, dapat menggunakan tanda +
+contoh : js_aritmatika.html
