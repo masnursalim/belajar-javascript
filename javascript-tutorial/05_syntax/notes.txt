@@ -12,4 +12,24 @@ Literal
 - Javascript literal terdiri atas beberapa tipe:
   1. Number yang ditulis dengan atau tanpa desimal
      contoh : js_number.html
-     
+
+  2. String dapat ditulis dengan petik satu atau petik dua
+     "John Doe"
+     'John Doe'
+     contoh : js_string.html
+
+
+Variable
+--------------------------
+- Di dalam bahasa pemrograman, variable digunakan untuk menyimpan nilai
+- Javascript menggunakan kata kunci var, let dan const untuk membuat sebuah variable.
+- Tanda = digunakan untuk memberikan value pada variable.
+contoh : js_variable.html     
+
+
+Javascript Operator
+--------------------------------------------------------
+- Javascript menggunakan operator aritmatika (+, -, /, *) untuk menghitung suatu nilai.
+contoh : js_aritmatika_operator.html
+
+- Asigment operator (=) digunakan untuk memberikan nilai pada variable.
