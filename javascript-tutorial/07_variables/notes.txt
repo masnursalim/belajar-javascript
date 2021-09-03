@@ -74,3 +74,24 @@ javascrip Aritmatika
 ----------------------------------------------
 - Untuk melakukan operasi aritmatika di Javascript, dapat menggunakan tanda +
 contoh : js_aritmatika.html
+
+- Operator + juga dapat digunakan untuk menggabungkan 2 string atau lebih.
+contoh : js_concat.html
+
+
+Javascript Tanda dolar
+---------------------------------------------------------------------------------------------------------------------------
+- Tanda dollar sangat jarang digunakan secara umum, tapi biasanya programmer professional sering menggunakannya sebagai alias 
+  pada fungsi utama di library javascript.
+- Di javascript JQuery, fungsi tanda $ sering digunakan untuk menyeleksi elemen HTML. seperti $("p") yang berarti menyeleksi
+  semua elemen paragraf.
+contoh : js_dollar.html
+
+
+Javascript Tanda Underscore
+--------------------------------------------------------------------------------
+- Tanda dollar dapat digunakan sebagai nama variable.
+- Variable underscore ini sangat tidak umum digunakan, tetapi secara konvensional biasanya programmer professional menggunakannya
+  sebagai alias yang menunjukan bahwa variable itu bersifat privat.
+contoh : js_underscore.html  
+
