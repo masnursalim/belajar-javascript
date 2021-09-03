@@ -1,0 +1,20 @@
+- Javascript comment digunakan untuk menjelaskan kode program, sehingga mudah untuk dibaca oldeh developer lain.
+- Javascript comment juga dapat digunakan untuk mencegah eksekusi statement, ketika melakukan testing.
+- Ada 2 cara untuk memberikan comment pada javascript:
+  1. Single line comment
+  2. Multi line comment
+
+
+Single Line comment
+-------------------------------------------------------------  
+- Single line comment diawali dengan tanda //
+- Text diantara tanda // tidak akan dieksekusi
+contoh : js_single_line_comment.html
+
+
+Multi Line Comment
+-----------------------------------------------------------
+- Multi line comment digunakan untuk memberikan komentar lebih dari 1 baris
+- Multi line comment diawali dengan tanda /* dan diakhiri dengan tanda */
+- kode program yang berada diantara tanda /* dan */ tidak akan dieksekusi
+contoh : js_multi_line_comment.html
