@@ -1,0 +1,51 @@
+- Ada 3 cara untuk membuat sebuah variable di Javascript:
+  1. menggunakan var
+  2. menggunakan let
+  3. menggunakan cons
+
+Variable
+------------------------------------------------------------
+- variable adalah wadah untuk menyimpan data (nilai)
+- contoh : js_variable.html
+
+Javascript Identifier
+---------------------------------------------------------
+- Semua variable di javascript harus unik. Inilah yang disebut identifier
+- Berikut adalah aturan penamaan variable di Javascript:
+  1. Nama variable boleh mengandung huruf, angka, underscore, dan tanda dollar
+  2. nama variable harus diawali dengan huruf
+  3. Nama boleh diawali dengan tanda dolar dan _
+  4. Nama variable bersifat case sensitive
+  5. Reserved word tidak boleh dijadikan sebagai nama variable
+
+
+Operator =
+------------------------------------------------------------------------
+- Operator = digunakan untuk memberikan value ke dalam variable
+contoh x = 10
+       y = y +2
+
+
+Javascript Data Type
+-----------------------------------------------------
+- Variable di javascript dapa menyimpan nilai baik angka maupun teks.
+- Nilai teks ditulis dengan tanda petik baik tunggal atau double.
+  var nama = "Nursalim";
+  var alamat = 'Brebes';
+- Nilai angka di javascript ditulis tanpa tanda petik
+  var umur = 10
+  var ipk = 3.25
+
+contoh : js_data_type.html
+
+
+Deklarasi Variable Di Javascript
+---------------------------------------------------------------
+- Proses pembuatan variable biasanya disebut deklarasi variable
+- Untuk deklarasi variable di Javascript menggunakan kata kunci var.
+  var nama;
+- Variable nama diatas sudah di deklarasi tapi belum memiliki nilai atau di Javascript disebut undefined.
+- Untuk memberikan nilai pada variable menggunakan operator =.
+  nama = "Nursalim";
+- Kita juga dapat sekaligus membuat variable dan memberikan nilai secara bersamaan
+  var nama = "Nursalim";    
