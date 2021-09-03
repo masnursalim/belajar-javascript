@@ -95,3 +95,4 @@ Javascript Tanda Underscore
   sebagai alias yang menunjukan bahwa variable itu bersifat privat.
 contoh : js_underscore.html  
 
+

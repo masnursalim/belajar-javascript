@@ -1,0 +1,66 @@
+- variable let mulai diperkenal pada ES6 (2015)
+- variable let tidak boleh di deklarasikan kembali (redeclare)
+- variable let memiliki blok scoping.
+
+
+Variable let tidak Boleh di redeclare
+---------------------------------------------------------------------
+contoh : js_let_redeclare.html
+
+
+Block Scope
+------------------------------------------
+- Sebelum ES6, Javascript hanya memiliki Global scope dan Function scope
+- ES6 memperkenalkan keyword baru, yaitu let dan const yang menyediakan blok scope
+    {
+        let x = 10;
+    }
+
+
+Redeclare var    
+---------------------------------------
+- proses redeklarasi variable menggunakan kata kunci var akan memaksakan sebuah problem
+- Redeklarasi var di dalam blok, juga akan mengubah nilai di luar blok
+- contoh : js_redeclare_var.html
+
+- untuk memecahkan problem diatas, solusinya redeklarasi menggunakan kata kunci let.
+- contoh : js_redeclare_let.html
+
+- Redeklarasi dengan var dapat dilakukan dimana saja.
+    var x = 2;
+    // Now x is 2
+
+    var x = 3;
+    // Now x is 3
+
+- Sedangkan redeklarasi dengan let tidak boleh dalam satu blok.
+    var x = 2;    // Allowed
+    let x = 3;    // Not allowed
+
+    {
+        let x = 2;    // Allowed
+        let x = 3     // Not allowed
+    }
+
+    {
+        let x = 2;    // Allowed
+        var x = 3     // Not allowed
+    }
+
+- Redeklarasi dengan let di luar blok adalah diijinkan
+    let x = 2;    // Allowed
+
+    {
+        let x = 3;    // Allowed
+    }
+
+    {
+        let x = 4;    // Allowed
+    }        
+
+
+let Hoisting
+--------------------------------------------------
+- variable yang didefinisikan dengan kata kunci var, akan diangkat ke atas (hoisted) dan dapat di inisialisasi kapanpun
+- artinya, kita dapat menggunkan variable walaupun belum di deklarasikan
+contoh : js_var_hoisted.html
