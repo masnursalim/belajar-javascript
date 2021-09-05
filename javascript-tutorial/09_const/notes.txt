@@ -1,0 +1,51 @@
+- Kata kunci const mulai diperkenalkan sejak ES6 (2015)
+- variable yang di definisikan dengan kata kunci cons tidak dapat di deklarasikan kembali
+- variable yang di definisikan dengan kata kunci cons tidak dapat di assign kembali
+- variable yang di definisikan dengan kata kunci cons memiliki block scoping
+
+
+Const tidak dapat di reassign
+------------------------------------
+contoh :
+    const PI = 3.141592653589793;
+    PI = 3.14;      // This will give an error
+    PI = PI + 10;   // This will also give an error
+
+
+- Javascript const variable harus langsung di assign sebuah nilai ketika di deklarasikan.
+const PI = 3.14159265359; // correct
+
+// incoreect
+const PI;
+PI = 3.14159265359;
+
+Kapan Menggunakan Konstanta?
+-------------------------------------------------------------
+- Umumnya, Anda membuat konstanta pada variable yang nilainya tidak boleh berubah.
+- Tetapi konstanta dapat Anda gunakan ketika:
+  1. Membuat sebuah array baru
+  2. Membuat sebuah object baru
+  3. Membuat sebuah function baru
+  4. Membuat sebuah RegExp baru.
+
+
+Contant Pada Array
+---------------------------------------------- --------------------------------
+- Pada constanta array, Anda dapat mengubah nilai element pada array 
+- Dan menambahkan element baru dan menghapus elemen yang ada.
+contoh : js_constant_array.html
+
+- Tetapi tidak dapat re-assign array 
+const cars = ["Saab", "Volvo", "BMW"];
+cars = ["Toyota", "Volvo", "Audi"];    // ERROR
+
+Constant Pada Object
+----------------------------------------------------------------------------
+- Anda dapat merubah property dari constant object
+- Anda dapat menambah property baru pada object.
+contoh : js_constant_object.html
+
+tetapi Anda tidak dapat re-assign object
+const car = {type:"Fiat", model:"500", color:"white"};
+
+car = {type:"Volvo", model:"EX60", color:"red"};    // ERROR

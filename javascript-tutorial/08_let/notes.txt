@@ -67,5 +67,5 @@ contoh : js_var_hoisted.html
 
 - variable yang didefinisikan dengan let juga hoisted di atas blok, tetapi tidak diinisialisasi artinya menggunakan variable let
   sebelum di declare akan menyebabkan error.
-  carName = "Saab";
-let carName = "Volvo";
+    carName = "Saab";
+    let carName = "Volvo";
