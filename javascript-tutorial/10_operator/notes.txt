@@ -1,0 +1,81 @@
+- Ada beberapa operator yang ada di Javascript:
+  1. Operator Aritmatika
+  2. Operator Penugasan (Assignment)
+  3. Operator Concat (+)
+  4. Operator Perbandingan (Comparison)
+  5. Operator Logika
+  6. Operator Tipe
+  7. Operator Bitwise
+
+  Operator Aritmatika
+  ------------------------------------------
+  Operator          Deskripsi
+  +                 Penambahan
+  -                 Pengurangan
+  *                 Perkalian
+  **                Pangkat (ES6)
+  /                 Pembagian
+  %                 Modulus (sisa bagi)
+  ++                increment
+  --                decrement
+
+
+  Operator Asignment
+  -----------------------------------------------
+  Operator      Contoh      Equals
+  =             x = y       x = y
+  +=            x += y      x = x + y
+  -=            x -= y      x = x - y
+  *=            x *= y      x = x * y
+  /=            x /= y      x = x / y
+  %=            x %= y      x = x % y
+  **=           x **= y     x = x ** y
+
+
+Operator Concatenation (+)
+--------------------------------------------------------
+contoh :
+    let text1 = "John";
+    let text2 = "Doe";
+    let text3 = text1 + " " + text2;
+
+- Operator += Juga dapat digunakan untuk menggabungkan string
+let text1 = "What a very ";
+text1 += "nice day";
+
+
+Menambahkan String Dengan Number
+------------------------------------------------------------------------
+- Menambahkan string dengan number akan menghasilkan sebuah string
+contoh :
+let x = 5 + 5;
+let y = "5" + 5;
+let z = "Hello" + 5;
+
+
+Operator Perbandingan
+--------------------------------------------------------------------------
+Operator        Deskripsi
+==              Equal to
+===             Equal value and equal type
+!=              not equal
+>               greater than
+<               less than
+>=              greather than or equal to
+<=              less than or equal to
+?               ternary operator
+
+
+Operator Logika
+---------------------------------------------------
+Operator        Deskripsi
+&&              logika AND
+||              logika OR
+!               logika Not
+
+
+Operator Tipe
+-----------------------------------------------------
+Operator        Deskripsi
+typeof          mengembalikan type dari sebuah variable
+instanceof      mengembalikan true jika object merupakan instance dari tipe object
